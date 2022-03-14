@@ -3,7 +3,7 @@ function tri(numbers, order){
         var done = false;
         while(!done){
             done = true;
-            for(var i = 1; i < numbers.length; i += 1){
+            for(var i = 1; i < numbers.length; i++){
                 if(numbers[i - 1] > numbers[i]){
                     done = false;
                     var tmp = numbers[i - 1];
@@ -18,7 +18,7 @@ function tri(numbers, order){
         var done = false;
         while(!done){
             done = true;
-            for(var i = 1; i < numbers.length; i += 1){
+            for(var i = 1; i < numbers.length; i++){
                 if(numbers[i - 1] < numbers[i]){
                     done = false;
                     var tmp = numbers[i - 1];
@@ -33,4 +33,4 @@ function tri(numbers, order){
 
 let numbers = [150, 23, 53, 2, 13, 4];
 
-console.log(tri(numbers, 'desc'));
+console.log(tri(numbers, 'asc'));
