@@ -1,9 +1,36 @@
-function tri(number, order){
-    
+function tri(numbers, order){
+    if(order == 'asc'){
+        var done = false;
+        while(!done){
+            done = true;
+            for(var i = 1; i < numbers.length; i += 1){
+                if(numbers[i - 1] > numbers[i]){
+                    done = false;
+                    var tmp = numbers[i - 1];
+                    numbers[i - 1] = numbers[i];
+                    numbers[i] = tmp;
+                }
+            }
+        }
+        return numbers;
+    }
+    else if(order == 'desc'){
+        var done = false;
+        while(!done){
+            done = true;
+            for(var i = 1; i < numbers.length; i += 1){
+                if(numbers[i - 1] < numbers[i]){
+                    done = false;
+                    var tmp = numbers[i - 1];
+                    numbers[i - 1] = numbers[i];
+                    numbers[i] = tmp;
+                }
+            }
+        }
+        return numbers;
+    }
 }
 
-let number = ['1', '23', '53', '2', '13', '4'];
+let numbers = [150, 23, 53, 2, 13, 4];
 
-var order = asc;
-
-alert(number, order);
+console.log(tri(numbers, 'desc'));
