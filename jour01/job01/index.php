@@ -5,7 +5,7 @@
     <script>
         alert('Hello Javascript!');
     </script>
-    <title>Job 01</title>
+    <title>Jour 01 Job 01</title>
 </head>
 <body>
     
