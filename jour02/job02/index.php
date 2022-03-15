@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <script type="text/javascript" src='script.js'> </script>
-    <title>Jour 02 Job 01</title>
+    <title>Jour 02 Job 02</title>
 </head>
 <body>
     <main>
-        <article id='citation'>
-            La vie a beaucoup plus d'imagination que nous !
-        </article>
         <button id='button'>Clique ICI</button>
+        <article style="display: none;">
+            “L'important n'est pas la chute, mais l'atterrissage.”.
+        </article>
     </main>
 </body>
 </html>
