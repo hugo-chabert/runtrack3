@@ -14,12 +14,12 @@
 
         </div>
         <div id="melangees">
-            <div class="test" id="img1"><img src="img/arc1.png" alt=""></div>
-            <div class="test" id="img2"><img src="img/arc2.png" alt=""></div>
-            <div class="test" id="img3"><img src="img/arc3.png" alt=""></div>
-            <div class="test" id="img4"><img src="img/arc4.png" alt=""></div>
-            <div class="test" id="img5"><img src="img/arc5.png" alt=""></div>
-            <div class="test" id="img6"><img src="img/arc6.png" alt=""></div>
+            <div id="img1"><img src="img/arc1.png" alt=""></div>
+            <div id="img2"><img src="img/arc2.png" alt=""></div>
+            <div id="img3"><img src="img/arc3.png" alt=""></div>
+            <div id="img4"><img src="img/arc4.png" alt=""></div>
+            <div id="img5"><img src="img/arc5.png" alt=""></div>
+            <div id="img6"><img src="img/arc6.png" alt=""></div>
         </div>
     </main>
 </body>
