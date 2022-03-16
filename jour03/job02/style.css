@@ -1,0 +1,8 @@
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+div{
+    margin: 0.125rem;
+}
